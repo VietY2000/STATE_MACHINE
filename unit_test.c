@@ -16,20 +16,14 @@ int main(){
 
     printf("\n");
     /* khởi tạo table screen */
-    tsm_init(&tsm_screen_table, tsm_screen_tbl, SCREEN_STATE_INIT);
+    tsm_init(&tsm_screen_table, tsm_screen_tbl, SCREEN_ST0ATE_INIT);
 
     /* khởi tạo table buzzer */
     tsm_init(&tsm_buzzer_table, tsm_buzzer_tbl, BUZZER_STATE_UNCONNECT);
     
-    while(1) {
-        printf(path);
+    char cmd[100] = "screen mode_5\n";
+    printf("test\"")
+    cmd_line_parser(cmd_table, cmd);
 
-        char cmd[100];
-        fgets(cmd,sizeof(cmd),stdin);
-        if(strcmp(cmd,"0xFF\n") == 0 || strcmp(cmd,"0xff\n") == 0){
-            break;
-        }
-        cmd_line_parser(cmd_table, cmd);
-    }
     return 0;
 }
