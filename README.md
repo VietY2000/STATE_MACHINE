@@ -9,7 +9,7 @@
 
 ![screen result](https://github.com/VietY2000/STATE_MACHINE/blob/master/doc/screen_result.png)
 
-    Đây là bảng trạng thái của màn hình. Ở đây mỗi bảng sẽ bao gồm các thuộc tính là sigmal, 
+    Đây là bảng trạng thái của màn hình. Ở đây mỗi bảng sẽ bao gồm các thuộc tính là signal, 
     next state của signal, hàm thực thi của signal. Sau khi kiểm tra signal có trong bảng không 
     ta sẽ kiểm tra xem trạng thái tiếp theo của signal có khác với trạng thái lúc này không thì 
     ta sẽ đổi trạng thái cho table và sẽ kiểm tra signal trong bảng đã chuyển đổi.
@@ -21,7 +21,7 @@
 ![buzzer result](https://github.com/VietY2000/STATE_MACHINE/blob/master/doc/buzzer_result.png)
 
     Đây là bảng trạng thái của buzzer. Và cũng tương tự như các trạng thái của screen mỗi bảng sẽ bao gồm 
-    các thuộc tính là sigmal, next state của signal, hàm thực thi của signal. Sau khi kiểm tra signal có 
+    các thuộc tính là signal, next state của signal, hàm thực thi của signal. Sau khi kiểm tra signal có 
     trong bảng không ta sẽ kiểm tra xem trạng thái tiếp theo của signal có khác với trạng thái lúc này không 
     thì ta sẽ đổi trạng thái cho table và sẽ kiểm tra signal trong bảng đã chuyển đổi.
 
