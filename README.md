@@ -7,21 +7,22 @@
     chế độ đó khi ở trạng thái wakeup.
     Ở đây ta sẽ sử dụng các lệnh cmd để thực hiện ví dụ này. Dưới đây là hình ảnh ví dụ về State Machine của màn hình.
 
-        ![screen result](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_5.png)
+  ![screen result](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_5.png)
     
     Đây là bảng trạng thái của màn hình.
 
-        ![screen state machine](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_3.png)
+  ![screen state machine](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_3.png)
 
     Và sau đây là ví dụ khác về State Machine của buzzer. 
-        ![buzzer result](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_1.png)
+    
+  ![buzzer result](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_1.png)
 
     Đây là bảng trạng thái của buzzer.
 
-        ![buzzer state machine](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_4.png)
+  ![buzzer state machine](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_4.png)
     
     Và ở đây chúng ta sẽ kết hợp cả hai.
-        ![main result](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_2.png)
+  ![main result](https://github.com/VietY2000/STATE_MACHINE/blob/master/image_2.png)
 
     Các lệnh để điều khiển các trạng thái bao gồm:
 
