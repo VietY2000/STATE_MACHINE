@@ -2,21 +2,21 @@
     
     Ở ví dụ này ta sẽ có một màn hình gồm các trạng thái init (khởi  động màn hình và bước vào trạng thái wakeup). Ở trạng thái wakeup bạn sẽ có các chế độ là sleep (bước vào trạng thái màn hình nghỉ), mode_3 ( hiển thị màn hình mode_3), mode_4 (hiển thị màn hình mode_4), mode_5 (hiển thị màn hình mode_5). Khi ở trạng thái sleep thì màn hình sẽ không thực hiện được các mode_3, mode_4, mode_5, chúng ta chỉ thực hiện được các chế độ đó khi ở trạng thái wakeup. Ở đây ta sẽ sử dụng các lệnh cmd để thực hiện ví dụ này. Dưới đây là hình ảnh ví dụ về State Machine của màn hình.
 
-        ![Alt text](image.png)
+        ![screen result](image_5.png)
     
     Đây là bảng trạng thái của màn hình.
 
-        ![Alt text](image-3.png)
+        ![screen state machine](image_3.png)
 
     Và sau đây là ví dụ khác về State Machine của buzzer. 
-        ![Alt text](image-1.png)
+        ![buzzer result](image_1.png)
 
     Đây là bảng trạng thái của buzzer.
 
-        ![Alt text](image-4.png)
+        ![buzzer state machine](image_4.png)
     
     Và ở đây chúng ta sẽ kết hợp cả hai.
-        ![Alt text](image-2.png)
+        ![main result](image_2.png)
 
     Các lệnh để điều khiển các trạng thái bao gồm:
 
